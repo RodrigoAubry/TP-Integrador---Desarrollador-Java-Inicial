@@ -2,7 +2,7 @@ public class Resultado{
 
     //Atributos
 
-     int rdo;
+    private int rdo;
 
     //Metodos
 

@@ -10,8 +10,6 @@ public class Partido {
 
     //Constructor
 
-    public Partido() {
-    }
 
     public Partido(Equipo equipoLocal, Equipo equipoVisitante, int golesEL, int golesEV) {
         this.equipoLocal = equipoLocal;

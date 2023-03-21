@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38dff1c-ac98-4c86-909b-f156f1df16a1" name="Changes" comment="retoques">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pronostico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pronostico.java" afterDir="false" />
+    <list default="true" id="d38dff1c-ac98-4c86-909b-f156f1df16a1" name="Changes" comment="retoques2">
       <change beforePath="$PROJECT_DIR$/src/Resultado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resultado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ronda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ronda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679318380824</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="retoques2">
+      <created>1679415699730</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679415699730</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -109,6 +112,7 @@
     <MESSAGE value="Segundo commit los datos de los archivos estan tratados y van a las clases, falta menos (:" />
     <MESSAGE value="Esta andando pero falta ponerlo lindo xD" />
     <MESSAGE value="retoques" />
-    <option name="LAST_COMMIT_MESSAGE" value="retoques" />
+    <MESSAGE value="retoques2" />
+    <option name="LAST_COMMIT_MESSAGE" value="retoques2" />
   </component>
 </project>
