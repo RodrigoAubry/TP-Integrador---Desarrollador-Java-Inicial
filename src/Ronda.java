@@ -2,14 +2,13 @@ public class Ronda {
 
     //Atributos
 
-    int nroRonda=1;
-    Partido partidos[];
+    private int nroRonda;
+    private Partido partidos[];
 
     //Constructor
 
-    public Ronda(int nro, Partido[] partidos) {
-        this.nroRonda=nro;
-        this.partidos = partidos;
+    public Ronda() {
+        this.nroRonda++;
     }
 
     //Metodos

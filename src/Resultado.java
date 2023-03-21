@@ -1,6 +1,11 @@
 public class Resultado{
-int rdo;
+
+    //Atributos
+
+     int rdo;
+
     //Metodos
+
     public void calcularResultado(int golesEL,int golesEV){
         if(golesEL==golesEV){
             this.rdo=2;
@@ -12,7 +17,6 @@ int rdo;
             }
         }
     }
-
     public int getRdo() {
         return rdo;
     }

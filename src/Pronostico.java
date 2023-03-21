@@ -8,13 +8,10 @@ public class Pronostico {
 
     //Constructor
 
-    public Pronostico() {
-    }
-
-   /* public Pronostico(Partido partidoApostado, int apuesta) {
+    public Pronostico(Partido partidoApostado, int apuesta) {
         this.partidoApostado = partidoApostado;
         this.apuesta = apuesta;
-    }*/
+    }
 
 
     //Metodos
