@@ -15,7 +15,7 @@ public class Main {
         Pronostico prono;
         int apuesta;
         Ronda ronda=new Ronda();
-        Partido partido[]=new Partido[2];
+        Partido []partido=new Partido[2];
         int puntosTotales=0;
         List<String> allLines = Files.readAllLines(Paths.get(".\\resultados.csv"));
         for (int j = 1; j < allLines.size(); j++) {
