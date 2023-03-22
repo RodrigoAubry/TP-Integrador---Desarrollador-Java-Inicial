@@ -17,7 +17,7 @@ public class Main {
         Ronda ronda=new Ronda();
         Partido []partido=new Partido[2];
         int puntosTotales=0;
-        List<String> allLines = Files.readAllLines(Paths.get(".\\resultados.csv"));
+        List<String> allLines = Files.readAllLines(Paths.get(args[0]));
         for (int j = 1; j < allLines.size(); j++) {
             archivoResultado = allLines.get(j);
             equipo=archivoResultado.split(",");
@@ -31,7 +31,7 @@ public class Main {
 
         ronda.setPartidos(partido);
 
-        List<String> readAllLines = Files.readAllLines(Paths.get(".\\pronostico.csv"));
+        List<String> readAllLines = Files.readAllLines(Paths.get(args[1]));
         for (int i = 1; i < readAllLines.size(); i++) {
             archivoPronostico = readAllLines.get(i);
             posPrimerComaPron = (archivoPronostico.indexOf(','));
